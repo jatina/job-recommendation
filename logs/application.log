@@ -1,0 +1,414 @@
+2016-06-13 13:54:39,545 - [INFO] - from play in main 
+Application started (Prod)
+
+2016-06-13 13:54:39,619 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2016-06-13 13:54:44,925 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Notebooks directory in the config is referring ./notebooks. Does it exist? true
+
+2016-06-13 13:54:44,988 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Notebooks dir is ./notebooks [at /home/jatin/Downloads/spark-notebook-0.6.2-scala-2.11.7-spark-1.6.0-hadoop-2.2.0-with-hive-with-parquet/./notebooks] 
+
+2016-06-13 13:54:44,992 - [INFO] - from application in New I/O worker #1 
+Notebook directory is: /home/jatin/Downloads/spark-notebook-0.6.2-scala-2.11.7-spark-1.6.0-hadoop-2.2.0-with-hive-with-parquet/notebooks
+
+2016-06-13 13:54:44,992 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Profiles file is : ./conf/profiles
+
+2016-06-13 13:54:44,994 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Clusters file is : ./conf/clusters
+
+2016-06-13 13:54:45,287 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
+DASH → /
+
+2016-06-13 13:54:45,442 - [DEBUG] - from application in play-akka.actor.default-dispatcher-4 
+DASH → /
+
+2016-06-13 13:55:00,632 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+View notebook 'PPDataset.snb', presentation: 'None'
+
+2016-06-13 13:55:03,458 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+content: PPDataset.snb
+
+2016-06-13 13:55:03,458 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+getNotebook: name is 'PPDataset', path is 'PPDataset.snb' and format is 'json'
+
+2016-06-13 13:55:03,459 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+getNotebook at path PPDataset.snb
+
+2016-06-13 13:55:03,459 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+Loading notebook at path PPDataset.snb
+
+2016-06-13 13:55:09,881 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+Starting kernel/session because nothing for None and Some(PPDataset.snb)
+
+2016-06-13 13:55:09,891 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+Loading notebook at path PPDataset.snb
+
+2016-06-13 13:55:09,986 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Spawning [/usr/lib/jvm/java-8-oracle/jre/bin/java, -Xmx14316732416, -XX:MaxPermSize=1073741824, -server, notebook.kernel.pfork.ChildProcessMain, notebook.kernel.remote.RemoteActorProcess, 45304, info, c2625579-6bd8-4417-85f0-817fa169a554, PPDataset.snb, kernel, ]
+
+2016-06-13 13:55:09,987 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+In working directory .
+
+2016-06-13 13:55:10,813 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+View notebook 'PPDataset.snb', presentation: 'None'
+
+2016-06-13 13:55:11,423 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Registering first web-socket (notebook.server.WebSockWrapperImpl@5a291a7a) in service notebook.server.CalcWebSocketService$CalcActor@1da8b768
+
+2016-06-13 13:55:11,424 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Spawning calculator in service notebook.server.CalcWebSocketService$CalcActor@1da8b768
+
+2016-06-13 13:55:29,241 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 13:56:17,903 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 13:57:09,934 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+SAVE → PPDataset.snb
+
+2016-06-13 13:57:09,948 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+save at path PPDataset.snb
+
+2016-06-13 13:57:09,989 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+Loading notebook at path PPDataset.snb
+
+2016-06-13 13:57:56,030 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 13:59:09,901 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+SAVE → PPDataset.snb
+
+2016-06-13 13:59:09,911 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+save at path PPDataset.snb
+
+2016-06-13 13:59:09,925 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+Loading notebook at path PPDataset.snb
+
+2016-06-13 14:00:15,603 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:35,406 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Termination of op calculator
+
+2016-06-13 14:00:44,704 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Termination of op calculator
+
+2016-06-13 14:00:45,081 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Termination of op calculator
+
+2016-06-13 14:00:45,640 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:46,855 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:48,209 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:48,784 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:48,790 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:48,975 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:48,990 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:49,020 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:49,047 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:49,660 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:49,820 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:49,865 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:50,099 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:50,246 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Termination of op calculator
+
+2016-06-13 14:00:50,281 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Termination of op calculator
+
+2016-06-13 14:00:50,319 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:50,510 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Termination of op calculator
+
+2016-06-13 14:00:50,557 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Termination of op calculator
+
+2016-06-13 14:00:50,681 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Termination of op calculator
+
+2016-06-13 14:00:50,747 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:51,035 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Termination of op calculator
+
+2016-06-13 14:00:51,103 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:51,139 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:51,187 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:51,568 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:51,700 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Termination of op calculator
+
+2016-06-13 14:00:51,936 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:51,991 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:52,308 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:52,389 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:52,426 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:52,887 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:52,888 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:52,919 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:52,980 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:53,402 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Termination of op calculator
+
+2016-06-13 14:00:53,426 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:53,426 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:53,431 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:00:53,434 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:53,435 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:53,435 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:53,450 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:00:53,927 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Termination of op calculator
+
+2016-06-13 14:00:53,929 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Termination of op calculator
+
+2016-06-13 14:00:53,971 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Termination of op calculator
+
+2016-06-13 14:00:53,996 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:00:53,998 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:00:53,999 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:01:09,873 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+SAVE → PPDataset.snb
+
+2016-06-13 14:01:09,878 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+save at path PPDataset.snb
+
+2016-06-13 14:01:09,888 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+Loading notebook at path PPDataset.snb
+
+2016-06-13 14:02:17,153 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:02:18,505 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:02:28,971 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Termination of op calculator
+
+2016-06-13 14:02:54,971 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:03:09,880 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+SAVE → PPDataset.snb
+
+2016-06-13 14:03:09,884 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+save at path PPDataset.snb
+
+2016-06-13 14:03:09,890 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+Loading notebook at path PPDataset.snb
+
+2016-06-13 14:03:50,090 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:03:52,742 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:03:56,207 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:03:58,289 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:03:59,874 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:04:04,541 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:04:06,542 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:04:08,253 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:04:10,071 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:04:11,908 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:04:13,683 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-06-13 14:04:28,158 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:04:37,909 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:04:38,507 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Termination of op calculator
+
+2016-06-13 14:04:39,487 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-06-13 14:04:40,737 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-06-13 14:04:41,268 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:04:41,888 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:05:01,515 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:05:02,229 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-06-13 14:05:04,930 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-22 
+Termination of op calculator
+
+2016-06-13 14:05:04,935 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-22 
+Termination of op calculator
+
+2016-06-13 14:05:05,937 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:05:06,959 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-06-13 14:05:07,464 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:05:08,887 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:05:09,944 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+SAVE → PPDataset.snb
+
+2016-06-13 14:05:09,948 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+save at path PPDataset.snb
+
+2016-06-13 14:05:09,972 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+Loading notebook at path PPDataset.snb
+
+2016-06-13 14:05:10,333 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:05:11,665 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Termination of op calculator
+
+2016-06-13 14:05:12,664 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-21 
+Termination of op calculator
+
+2016-06-13 14:05:13,390 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-06-13 14:05:15,867 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:05:17,335 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-06-13 14:05:17,904 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:05:18,403 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:05:19,181 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:05:34,075 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:05:35,188 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:06:02,847 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:06:08,104 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Termination of op calculator
+
+2016-06-13 14:07:09,906 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+SAVE → PPDataset.snb
+
+2016-06-13 14:07:09,909 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+save at path PPDataset.snb
+
+2016-06-13 14:07:09,915 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+Loading notebook at path PPDataset.snb
+
